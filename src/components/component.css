@@ -1,0 +1,86 @@
+.button-main {
+  color: #816797;
+  background-color: red;
+}
+
+.leanging {
+  background-color: #1b2430;
+  min-height: calc(100vh - 72px);
+}
+
+.conanGood::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  background-color: aqua;
+  height: 2px;
+  bottom: -20px;
+  right: 40%;
+  transform: translateX(-50%);
+}
+
+.feat .icon-holder {
+  height: 200px;
+}
+
+.feat .icon-holder .number {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feat .icon-holder .number {
+  font-size: 12rem;
+}
+
+.feat .icon-holder .iconPen {
+  height: 5rem;
+  width: 5rem;
+  color: aqua;
+}
+
+.OurWork .active {
+  background-color: red;
+}
+.OurWork ul li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+.OurWork ul li:not(.active):hover {
+  color: red;
+}
+
+.OurWork .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.OurWork .box::before {
+  content: attr(data-work);
+  position: absolute;
+  background-color: rgb(26 141 141 / 70%);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  transition: 0.4s;
+  transform: translateX(calc(-100% - 5px));
+}
+
+.OurWork .box:hover::before {
+  transform: translateX(0);
+}
+
+.stuff .description {
+  max-width: 500px;
+}
+
+.team {
+  background-color: #eff7fa;
+}
+
+.team .box h4 {
+  background-color: aqua;
+}
