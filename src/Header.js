@@ -10,11 +10,11 @@ function Header() {
         <div>
             <Navbar expand="lg" className='navbar'>
                 <Container >
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                    <Navbar.Brand href="#"><img src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/logo.png" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
-                            className="ms-auto my-2 my-lg-0"
+                            className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >

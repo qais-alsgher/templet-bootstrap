@@ -84,3 +84,63 @@
 .team .box h4 {
   background-color: aqua;
 }
+
+.techs .project {
+  background-color: #1b2430;
+}
+.subscribe {
+  background-color: #ffc400;
+}
+
+.subscribe .subEmail {
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.subscribe .subEmail:focus {
+  outline: none;
+}
+
+.subscribe .subEmail::placeholder {
+  color: white;
+}
+
+.subButton {
+  background-color: #19283f;
+  color: #ffc400;
+}
+
+.footer {
+  background-color: #19283f;
+}
+
+.footer .logo-contact {
+  width: 80px;
+}
+
+.footer .copyright > span {
+  color: #00ffff;
+}
+
+.footer .copyright div span {
+  color: #ffc400;
+}
+.footer .logo-contact svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer .logo-contact .facebook {
+  background-color: #1877f2;
+}
+
+.footer .logo-contact .twitter {
+  background-color: #1da1f2;
+}
+
+.footer .logo-contact .linkedin {
+  background-color: #0077b5;
+}
+.footer .logo-contact .youtube {
+  background-color: #ff0000;
+}

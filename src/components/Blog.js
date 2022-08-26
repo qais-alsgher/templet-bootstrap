@@ -14,7 +14,7 @@ function Blog() {
                     <p className='text-black-50 text-upperCasee'>NEW STORIES</p>
                 </div>
                 <div className='row'>
-                    <div className='col-lg-4 col-md-6 gap-1' >
+                    <div className='col-lg-4 col-md-6' >
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/blog-3.jpg" />
                             <Card.Body>
@@ -23,7 +23,7 @@ function Blog() {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className='col-lg-4 col-md-6 gap-1' >
+                    <div className='col-lg-4 col-md-6' >
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/blog-3.jpg" />
                             <Card.Body>
@@ -32,7 +32,7 @@ function Blog() {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className='col-lg-4 col-md-6 gap-1' >
+                    <div className='col-lg-4 col-md-6 p-0' >
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/blog-3.jpg" />
                             <Card.Body>
@@ -42,6 +42,7 @@ function Blog() {
                         </Card>
                     </div>
                 </div>
+                <a className='btn mt-5 rounded-pill button-main' href="#">MORE STORIES</a>
             </Container>
         </div>
     )
